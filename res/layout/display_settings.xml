@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewNumHoursBefore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of hours to display for previous sun positions:" />
+
+    <EditText
+        android:id="@+id/editTextNumHoursBefore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/textViewNumHoursAfter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of hours to display for future sun positions:" />
+
+    <EditText
+        android:id="@+id/editTextNumHoursAfter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" >
+    </EditText>
+
+</LinearLayout>
